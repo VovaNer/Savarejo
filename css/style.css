@@ -59,9 +59,8 @@ ul {
 }
 .social-wrapper ul li{
   float: left;
-  width: 45px;
-  height: 40px;
-  margin-right: 5px;
+  padding: 20px 20px;
+  margin-right: 6px;
   border-radius: 20px;
   position: relative;
   cursor: pointer;
