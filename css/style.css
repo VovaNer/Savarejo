@@ -9,6 +9,7 @@ a, a:link, a:visited {
 }
 ul {
   list-style: none;
+  padding: 0;
 }
 .menu_link {
   font-size: 12px;
@@ -44,45 +45,40 @@ ul {
   display: inline-block;
 }
 .subtext{
-  margin: 20px 0;
+  margin: 20px 0 0 0;
 }
 .subtext hr {
   vertical-align: middle;
   margin: 0 30px;
 }
 /* Social Links */
-.social-wrapper{
-  position: absolute;
-  top: 50%;
-  left: 48%;
-  transform: translate(-50%,-50%);
+.social-wrapper {
+  padding-top: 20px;
 }
-.social-wrapper ul li{
-  float: left;
-  padding: 20px 20px;
-  margin-right: 6px;
-  border-radius: 20px;
-  position: relative;
+.social-link {
+  display: inline-block;
   cursor: pointer;
   transition: all 0.5s ease;
+  padding: 4px 10px;
+  margin-right: 20px;
+  border: 1px solid rgba(255, 255, 255, .0);
 }
-.social-wrapper ul li:last-child{
+.social-link:last-child {
   margin-right: 0;
 }
-.social-wrapper ul li .fa{
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  color: #fff;
-  font-size: 18px;
-  transition: all 0.5s ease;
+.social-link:first-child {
+  padding: 4px 13px;
+}
+.google-link {
+  padding: 7px 10px;
+}
+.social-link:hover {
+  border-radius: 30px;
+  border: 1px solid #fff;
 }
 .social-wrapper ul li:hover{
   background: #fff;
   box-shadow: 0 0 30px 3px #fff;
-  border: 2px solid #fff;
-}
-.social-wrapper ul li:hover .fa{
-  color: #f06060;
+  color: red;
+  transition: all 0.5s linear;
 }
