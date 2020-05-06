@@ -22,7 +22,7 @@ ul {
 }
 .menu {
   background-image: url(../img/main-bg.png);
-  height: 100vh;
+  padding-bottom: 170px;
 }
 .purple-nav {
   background-color: rgba(120,27,233, 0.05);
@@ -53,14 +53,14 @@ ul {
 }
 /* Social Links */
 .social-wrapper {
-  padding-top: 20px;
+
 }
 .social-link {
   display: inline-block;
   cursor: pointer;
   transition: all 0.5s ease;
   padding: 4px 10px;
-  margin-right: 20px;
+  margin-right: 5px;
   border: 1px solid rgba(255, 255, 255, .0);
 }
 .social-link:last-child {
@@ -81,4 +81,12 @@ ul {
   box-shadow: 0 0 30px 3px #fff;
   color: red;
   transition: all 0.5s linear;
+}
+/* Features Section*/
+.features {
+  padding-top: 80px;
+}
+.features-title {
+  color: #4c76ff;
+
 }
