@@ -22,7 +22,9 @@ ul {
 }
 .menu {
   background-image: url(../img/main-bg.png);
-  padding-bottom: 170px;
+  -webkit-background-size: cover;
+  background-size: cover;
+  padding-bottom: 210px;
 }
 .purple-nav {
   background-color: rgba(120,27,233, 0.05);
@@ -84,9 +86,36 @@ ul {
 }
 /* Features Section*/
 .features {
-  padding-top: 80px;
+  padding: 80px 0 120px 0;
+  background-color: #efefef;
 }
 .features-title {
   color: #4c76ff;
-
+  font-size: 28px;
+  font-weight: 900;
+}
+.heart-block {
+  padding-bottom: 80px;
+}
+.features-blocks_svg {
+  border: 1px solid #4c76ff;
+  border-radius: 25px;
+  width: 40px;
+  height: 40px;
+  padding: 5px 5px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.features-blocks_svg:hover {
+  background-color: #4c76ff;
+  color: #fff;
+  box-shadow: 0 0 30px 3px #fff;
+  transition: all 0.5s linear;
+}
+.features-row_blocks_title {
+  margin-left: 20px;
+}
+.features-row_blocks_text {
+  margin-left: 50px;
 }
