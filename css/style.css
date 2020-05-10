@@ -94,8 +94,8 @@ ul {
   font-size: 28px;
   font-weight: 900;
 }
-.heart-block {
-  padding-bottom: 80px;
+.feature-row {
+  padding-top: 80px;
 }
 .features-blocks_svg {
   border: 1px solid #4c76ff;
@@ -118,15 +118,18 @@ ul {
   color: #000;
 }
 .features-row_blocks_text {
-  margin-left: 50px;
+  margin: 0 50px;
   color: #000;
+}
+.feature-columns {
+  margin-bottom: 30px;
 }
 /* iPhone Section */
 .iPhone {
   padding: 90px 0;
 }
 .iPhone-text {
-  margin-bottom: 80px;
+  margin: 0 40px 80px;
   color: #000;
 }
 .iPhone-imgs {
@@ -141,23 +144,83 @@ ul {
   transition: all .8s linear;
   box-shadow: 0 0 30px 3px #fff;
 }
-
+.iPhone-blocks{
+  margin: 0 40px;
+}
 .iPhone-blocks:hover>.iPhone-imgs{
   width: 50px;
   height: 50px;
   transition: all .8s linear;
   box-shadow: 0 0 30px 3px #fff;
 }
-
-
 .iPhone-blocks-text {
   margin: 0 0 80px 90px ;
-
 }
 .iPhone-main-img {
   transition: 1.1s ease all;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
 }
 .iPhone-main-img:hover {
   transform: rotate(360deg);
   transition: 1.1s ease all;
+}
+/* Team Section */
+.team {
+  padding: 50px 0 100px;
+}
+.team-text {
+  color: #000;
+  text-align: center;
+  margin: 50px 40px 80px;
+}
+.card {
+  margin-bottom: 40px;
+  justify-content: space-around;
+}
+.card-block {
+  margin: 0 auto;
+}
+.card-body {
+  text-align: center;
+}
+.card-text {
+  font-size: 14px;
+}
+.card-hover {
+  text-align: center;
+  color: #fff;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 249px;
+  transition: all .7s linear;
+}
+.card-title {
+  transition: all .7s linear;
+}
+.card:hover .card-title {
+  color: #12b595;
+  transition: all .4s linear;
+}
+.card:hover .card-hover {
+    background-color: rgba(85, 125, 255, .9);
+    transition: all .4s linear;
+    opacity: 1;
+}
+.card-hover-title {
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 10%;
+}
+.card-hover-text {
+  font-size: 14px;
+  width: 91%;
+  margin: 0 auto;
+}
+.card-hover-links {
+  margin-top: 40px;
 }
