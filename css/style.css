@@ -227,12 +227,13 @@ ul {
 /* City Section */
 .city {
   width: 100%;
-  height: 70vh;
+  height: auto;
   background: url("../img/city.png") center center no-repeat;
-  background-size: 100%;
+  background-size: cover;
+  padding: 80px 0 80px;
 }
 .city-title-row {
-  padding-top: 50px;
+
 }
 .city-blocks-row {
   text-align: center;
@@ -249,10 +250,18 @@ ul {
 .city-numbers {
   font-size: 45px;
   color: #fff;
-
 }
 .city-text {
     color: #bbb4b4;
     font-size: 14px;
     text-transform: uppercase;
+}
+/* Form Section */
+.form-row {
+padding-top: 80px;
+}
+.form-subtitle {
+  text-align: center;
+  margin: 50px auto 40px;
+
 }
