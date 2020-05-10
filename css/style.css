@@ -224,3 +224,35 @@ ul {
 .card-hover-links {
   margin-top: 40px;
 }
+/* City Section */
+.city {
+  width: 100%;
+  height: 70vh;
+  background: url("../img/city.png") center center no-repeat;
+  background-size: 100%;
+}
+.city-title-row {
+  padding-top: 50px;
+}
+.city-blocks-row {
+  text-align: center;
+  padding-top: 60px;
+  justify-content: space-around;
+}
+.city-symbol {
+  display: block;
+  margin: 0 auto 20px;
+  border: 1px solid #bbb4b4;
+  border-radius: 100px;
+  padding: 40px 40px;
+}
+.city-numbers {
+  font-size: 45px;
+  color: #fff;
+
+}
+.city-text {
+    color: #bbb4b4;
+    font-size: 14px;
+    text-transform: uppercase;
+}
