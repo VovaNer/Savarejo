@@ -23,19 +23,15 @@ ul {
   height: 1px;
   background-color: #fff;
   transition: width 0.5s;
-
 }
 .nav-link:hover {
   color: #fff;
   transition: all .5s ease;
 }
-
 .nav-link:hover::after {
   width: 100%;
   transition: width 0.5s;
 }
-
-
 .menu {
   background-image: url(../img/main-bg.png);
   -webkit-background-size: cover;
@@ -294,8 +290,9 @@ ul {
   text-align: center;
   margin: 50px auto 40px;
 }
-.form-text {
+.form-text, .form-text-title {
   color: #000;
+  margin-bottom: 50px;
 }
 .form-text-title {
   width: 90%;
@@ -370,4 +367,18 @@ ul {
 }
 .form-social-link {
   margin: 0 0 10px;
+}
+/* Footer Section */
+footer {
+  background-color: #000;
+  padding: 50px 0;
+}
+footer img {
+  width: 35%;
+}
+footer p {
+  margin-top: 25px;
+}
+.footer-subscribe {
+  color: #fff;
 }
