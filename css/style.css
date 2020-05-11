@@ -54,11 +54,7 @@ ul {
   margin: 0 30px;
 }
 /* Social Links */
-.social-wrapper {
-
-}
 .social-link {
-  display: inline-block;
   cursor: pointer;
   transition: all 0.5s ease;
   padding: 4px 10px;
@@ -207,9 +203,9 @@ ul {
   transition: all .4s linear;
 }
 .card:hover .card-hover {
-    background-color: rgba(85, 125, 255, .9);
-    transition: all .4s linear;
-    opacity: 1;
+  background-color: rgba(85, 125, 255, .9);
+  transition: all .4s linear;
+  opacity: 1;
 }
 .card-hover-title {
   font-size: 14px;
@@ -232,7 +228,6 @@ ul {
   background-size: cover;
   padding: 80px 0 80px;
   animation: slideBg 16s linear infinite 0s;
-  animation-timing-function: ease-in-out;
   backface-visibility: hidden;
   animation-direction: alternate;
 }
@@ -254,8 +249,6 @@ ul {
     background-image: url("../img/city5.jpg");
   }
 }
-
-
 .city-blocks-row {
   text-align: center;
   padding-top: 60px;
@@ -273,16 +266,92 @@ ul {
   color: #fff;
 }
 .city-text {
-    color: #bbb4b4;
-    font-size: 14px;
-    text-transform: uppercase;
+  color: #bbb4b4;
+  font-size: 14px;
+  text-transform: uppercase;
 }
 /* Form Section */
 .form-row {
-padding-top: 80px;
+  padding-top: 80px;
 }
 .form-subtitle {
   text-align: center;
   margin: 50px auto 40px;
-
+}
+.form-text {
+  color: #000;
+}
+.form-text-title {
+  width: 90%;
+}
+.form-text-subtitle {
+  margin-top: 30px;
+}
+.input-row {
+  padding-top: 40px;
+}
+.form-input {
+  border: none;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 0;
+}
+.form-input:focus {
+  outline: none;
+}
+.block-input {
+  display: block;
+  width: 100%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.inline-input {
+  width: 47%;
+  display: inline-block;
+  margin-top: 40px;
+}
+.input-right, .input-button {
+  float: right;
+}
+.input-button {
+  margin-bottom: 80px;
+  padding: 10px 10px;
+  border: none;
+  background-color: inherit;
+  transition: all .4s ease;
+}
+.input-button-text {
+  font-size: 14px;
+  margin-left: 10px;
+  color: #000;
+}
+.input-button:hover .input-button-text {
+  color: #fff;
+  transition: all .4s ease;
+}
+.input-button:hover {
+  background-color: #5e5e5e;
+  transition: all .4s ease;
+}
+.form-social-link {
+  cursor: pointer;
+  transition: all 0.5s ease;
+  padding: 4px 10px;
+  margin-right: 5px;
+  border: 1px solid rgba(0, 0, 0, .0);
+}
+.form-social-link:hover {
+  border-radius: 30px;
+  border: 1px solid #5aeced;
+}
+.form-social-wrapper ul li:hover{
+  background: #5aeced;
+  box-shadow: 0 0 30px 3px #5aeced;
+  color: red;
+  transition: all 0.5s linear;
+}
+.form-social-wrapper ul li {
+  width: 40px;
+}
+.form-social-link {
+  margin: 0 0 10px;
 }
